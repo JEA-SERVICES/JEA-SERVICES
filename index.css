@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    position: absolute;
+    width: 1253px;
+    height: 1736px
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #1C1C1C;
+    background-size: cover;
+    padding: 30px;
+h1 {
+    color: white;
+    font-family: 'Karla';
+    
+}
+span {
+    color: lightgreen;
+}
+p {
+    color: snow;
+    
+}
+button {
+    color: white;
+    background: #10B981;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family: 'Inter';
+
+}
+
+#randompwd , #random-pwd2 {
+    padding: 7px 12px 9px 15px;
+    gap: 8px;
+    border: 1px ridge darkslategrey;
+    background: darkgreen;
+    color: snow;
+    width: 170px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#dompwd {
+    display: flex;
+}
